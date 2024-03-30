@@ -1,0 +1,80 @@
+*{
+    margin: 0px auto;
+    padding: 10px;
+}
+#bodyindex { 
+    background-color: rgb(204, 240, 229);
+    text-align: left;
+    border: rgb(77, 14, 14) solid 2px;
+}
+h1, h3, a {
+    text-align: center;
+    color: rgb(0, 2, 139);
+}
+p{
+    color: rgb(24, 22, 22);
+}
+pre, h4{
+    background-color: grey;
+}
+
+.menu {
+    list-style: none;
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+}
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 2px solid white;
+}
+.menu li a {
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+.menu li a:hover {
+    background: rgb(182, 245, 146);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px 0px rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(151, 230, 164);
+}
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: rgb(204, 240, 229);
+    display: none;
+}
+.menu li:hover ul {
+    display: block;
+}
+.menu li.over ul {
+    display: block;
+}
+.menu li ul li {
+    border: 1px solid blue;
+    display: block;
+    width: 90px;
+}
+
+/* PÁGINA 4 */
+
+#bodyformulario {
+    background-color: rgb(204, 240, 229);
+    text-align: left;
+    border: rgb(77, 14, 14) solid 1px;
+}
+#dados_pessoais{
+    border: 3px solid blueviolet;
+}
+#endereco{
+    border: 3px solid burlywood;
+}
+#acesso {
+    border: 3px solid teal;
+}
+#comentarios {
+    border: 3px solid tomato;
+}
