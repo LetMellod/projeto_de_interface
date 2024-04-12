@@ -24,7 +24,7 @@ pre, h4{
     float: left;
 }
 .menu li {
-    position: relative;
+    position:relative;
     float: left;
     border-right: 2px solid white;
 }
@@ -32,7 +32,7 @@ pre, h4{
     color: rgb(24, 22, 22);
     text-decoration: none;
     padding: 5px 10px;
-    display: block;
+    display: inside;
 }
 .menu li a:hover {
     background: rgb(182, 245, 146);
@@ -68,13 +68,17 @@ pre, h4{
 }
 #dados_pessoais{
     border: 3px solid blueviolet;
+    border-style: dotted solid;
 }
 #endereco{
     border: 3px solid burlywood;
+    border-style: dotted solid;
 }
 #acesso {
     border: 3px solid teal;
+    border-style: dotted solid;
 }
 #comentarios {
     border: 3px solid tomato;
+    border-style: dotted solid;
 }
