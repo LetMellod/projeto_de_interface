@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 
-<html lang=" en">
+<html lang=" pt-br">
         <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="shortcut icon" href="../PROJETO DE INTERFACE/imagens/logo_site.ico" type="image/x-icon">
                 <title>Inscreva-se</title>
                 <link rel="stylesheet" href="../style.css" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sedan:ital@0;1&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
             </head>
             <body id="bodyformulario">
-                <nav>    
-                    <ul class="menu">
-                            <li><a href="../PROJETO DE INTERFACE/index.html">Home</a></li>
-                            <li><a href="../PROJETO DE INTERFACE/paginas/1_beleza.html">Beleza</a></li>
-                                <ul>
-                                    <li><a href="../PROJETO DE INTERFACE/paginas/2_cabelos.html">Cabelos</a></li>
-                                    <li><a href="../PROJETO DE INTERFACE/paginas/3_unhas.html">Unhas</a></li>
-                                    <li><a href="../PROJETO DE INTERFACE/paginas/4_maquiagem.html">Maquiagem</a></li>
-                                </ul>
-                            <li><a href="../PROJETO DE INTERFACE/paginas/5_moda.html">Moda</a></li>
-                            <li><a href="../PROJETO DE INTERFACE/paginas/6_lifestyle.html">Lifestyle</a></li>
-                            <li><a href="../PROJETO DE INTERFACE/paginas/7_cultura.html">Cultura</a></li>
-                            <li><a href="../PROJETO DE INTERFACE/paginas/8_faca_parte.html">Faça Parte</a></li>
+                <div class="header" id="header">
+                    <div class="logo_site">
+                    <img src="../imagens/logo_site.jpg"  class="logo_header" alt="logo in style"/>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>
+                            <a href="../index.html">Home</a>
+                            </li>
+                            <li class="dropdown">
+                            <a href="../paginas/1_beleza.html">Beleza</a>
+            
+                            <div class="dropdown-menu">
+                                <a href="../paginas/2_cabelos.html">Cabelos</a>
+                                <a href="../paginas/3_unhas.html">Unhas</a>
+                                <a href="../paginas/4_maquiagem.html">Maquiagem</a>
+                            </div>
+                            </li>
+                            <li>
+                            <a href="../paginas/5_moda.html">Moda</a>
+                             </li>
+                            <li>
+                            <a href="../paginas/6_lifestyle.html">Lifestyle</a>
+                            </li>
+                            <li>
+                            <a href="../paginas/7_cultura.html">Cultura</a>
+                            </li>
+                            <li>
+                            <a href="../paginas/8_faca_parte.html">Faça Parte</a>
+                            </li>
                         </ul>
-                </nav>
+                    </nav>
+                </div>
                 <br />
                 <br />
                 <br />
@@ -60,7 +81,7 @@
                         <legend>Endereço</legend>
                         <label>Endereço: <input placeholder="Digite seu endereço" type="text" name="endereço"/></label>
                         <br /><br />
-                        <label>Complemento: <input type="text" name="complemento"/></label>
+                        <label>Complemento: <input placeholder="complemento" type="text" name="complemento"/></label>
                         <br /><br />
                         <label>Cep: <input type="number" name="cep"/></label>
                         <br /><br />
@@ -140,5 +161,69 @@
                     <input type="submit" name="enviar"/>
                     <br />
                 </div>
+                <footer>
+                    <div id="footer_content">
+                        <div id="footer_logo">
+                            <p><a href="../PROJETO DE INTERFACE/index.html" class="footer-link" id="logo">
+                                <img src="../PROJETO DE INTERFACE/imagens/logo_site.jpg">
+                            </p>
+            
+                            <div id="footer_social_media">
+                                <a href="https://www.instagram.com/letmellod/" class="footer-link" id="instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+            
+                                <a href="https://pt-br.facebook.com/login/device-based/regular/login/" class="footer-link" id="facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <ul class="footer-list">
+                            <li>
+                                <h3>Sobre</h3>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-book-bookmark"></i>
+                                <a href="#" class="footer-link">Nossa história</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-question"></i>
+                                <a href="#" class="footer-link">FAQ</a>
+                            </li>
+                            <li>
+                        </ul>
+            
+                        <ul class="footer-list">
+                            <li>
+                                <h3>Informações</h3>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-lock"></i>
+                                <a href="../projeto_interface_aula/paginas/pagina6.html" class="footer-link">Política de Privacidade</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-shield-halved"></i>
+                                <a href="../projeto_interface_aula/paginas/pagina5.html" class="footer-link">Termos de Uso</a>
+                            </li>
+                        </ul>
+            
+                        <div id="footer_subscribe">
+                            <h3>Faça parte</h3>
+                            <p><i class="fa-solid fa-users-rectangle"></i> Se increva, fique sempre por dentro das novidades e faça parte do nosso grupo.</p>
+            
+                            <div id="button">
+                                <button>
+                                    <a href="../PROJETO DE INTERFACE/paginas/8_faca_parte.html" class="footer-link">Clique aqui</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div id="footer_copyright">
+                        &#169
+                        2024 todos os direitos reservados
+                    </div>
+                </footer>
             </body>
 </html>
