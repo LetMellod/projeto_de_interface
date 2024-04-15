@@ -75,22 +75,41 @@ nav li a:hover{
     display: block;
 }
 
+
 /* Categorias index e pg beleza */
-.container{
-    display: flex;
-    background-color: rgb(252, 211, 77);
+.titulo-entrada h3{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid  black;
+    line-height: 0.1em;
+    text-transform: uppercase;
+    font-size: 20px;
 }
-.item {
+.titulo-entrada h3 span{
+    background: rgb(204, 240, 229);
+    padding: 0 20px;
+}
+.novidades,
+.mais-acessados{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.137);
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
     width: 200px;
-    height: 250px;
-    background-color: rgb(225, 29, 72);
+    height: 300px;
+    background-color: rgba(240, 153, 172, 0.527);
+    justify-content: space-evenly;
 }
 .item img{
     width: 190px;
     height: 170px;
+    justify-content: space-evenly;
 }
 
 
+/* Rodapé */
 footer {
     width: 100%;
     background-color: rgb(192, 192, 192);
@@ -142,6 +161,14 @@ footer {
 
 #facebook {
     background-color: #4267b3;
+}
+
+#youtube {
+    background-color: #e70a0a;
+}
+
+#telegram {
+    background-color: #5ba9f1;
 }
 
 .footer-list {
@@ -214,6 +241,73 @@ footer {
     margin: 0px 10px 10px 0;
 }
 
+.titulo-beleza h3{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 0.20em;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.titulo-beleza h3 span{
+    background: rgb(255, 253, 253);
+    padding: 0 15px 10px;
+}
+.titulo{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.137);
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.item {
+    width: 200px;
+    height: 250px;
+    background-color: rgba(207, 238, 197, 0.527);
+}
+.item img{
+    width: 190px;
+    height: 170px;
+}
+
+/* .aba-cabelo,
+.aba-unha,
+.maquiagem h3{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 0.20em;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.aba-cabelo h3 span,
+.aba-unha h3 span,
+.maquiagem h3 span{
+    background: rgb(255, 253, 253);
+    padding: 0 15px 10px;
+}
+.cabelos,
+.unhas,
+.maquiagens{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.137);
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item {
+    width: 200px;
+    height: 250px;
+    background-color: rgba(240, 153, 172, 0.527);
+}
+.item img{
+    width: 190px;
+    height: 170px;
+} */
+
+
+
+
+
 /* PÁGINA 2 */
 #bodypag2 { 
     background-color: rgb(240, 227, 204);
@@ -283,4 +377,42 @@ footer {
 #comentarios {
     border: 3px solid tomato;
     border-style: dotted solid;
+}
+
+/* PÁGINA 5 */
+
+
+
+
+
+
+/* PÁGINA 6 */
+.gastronomia, .serie h3{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 0.20em;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.gastronomia h3 span,
+.serie h3 span {
+    background: rgb(255, 253, 253);
+    padding: 0 15px 10px;
+}
+.gastronomia-titulo, .serie-titulo{
+    display: flex;
+    background-color: rgb(252, 252, 252);
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.item {
+    width: 950px;
+    height: 900px;
+    background-color: rgba(207, 238, 197, 0.527);
+}
+.item img{
+    width: 190px;
+    height: 170px;
 }
