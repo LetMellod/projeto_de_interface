@@ -14,16 +14,6 @@
       "wdth" 100,
       "YTLC" 500;
 }
-h1, h3, a {
-    text-align: center;
-    color: rgb(0, 2, 139);
-}
-p{
-    color: rgb(24, 22, 22);
-}
-pre, h4{
-    background-color: grey;
-}
 
 
 /* Cabeçalho */
@@ -43,34 +33,32 @@ nav{
     flex-direction: row;
     display: flex;
 }
-
 nav li{
     display: inline-block;
 }
-
 nav li a{
     display: inline-block;
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px;
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
-
 nav li a:hover{
     background-color: rgb(255, 255, 255);
     border-radius: 10%;
 }
-
 .dropdown-menu{
     position: absolute;
     box-shadow: 0 0 2px rgb(2, 2, 2);
     display: none;
 }
-
 .dropdown-menu a{
     display: block;
     color: black;
 }
-
 .dropdown:hover .dropdown-menu{
     display: block;
 }
@@ -84,6 +72,9 @@ nav li a:hover{
     line-height: 0.1em;
     text-transform: uppercase;
     font-size: 20px;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 .titulo-entrada h3 span{
     background: rgb(204, 240, 229);
@@ -101,6 +92,9 @@ nav li a:hover{
     height: 300px;
     background-color: rgba(240, 153, 172, 0.527);
     justify-content: space-evenly;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .item img{
     width: 190px;
@@ -113,6 +107,10 @@ nav li a:hover{
 footer {
     width: 100%;
     background-color: rgb(192, 192, 192);
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .footer-link {
@@ -191,10 +189,18 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 1.5px;
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 #footer_subscribe p,  h3{
     color: black;
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 #button {
@@ -217,6 +223,10 @@ footer {
     font-size: 15px;
     padding: 30px;
     font-weight: 100;
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 
@@ -225,13 +235,6 @@ footer {
     background-color: rgb(184, 180, 226);
     text-align: left;
     border: rgb(77, 14, 14) solid 2px;
-    font-family: "Nunito Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100,
-      "YTLC" 500;
 }
 .img {
     float: center;
@@ -248,6 +251,9 @@ footer {
     line-height: 0.20em;
     text-transform: uppercase;
     font-size: 20px;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 .titulo-beleza h3 span{
     background: rgb(255, 253, 253);
@@ -269,43 +275,6 @@ footer {
     width: 190px;
     height: 170px;
 }
-
-/* .aba-cabelo,
-.aba-unha,
-.maquiagem h3{
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid black;
-    line-height: 0.20em;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-.aba-cabelo h3 span,
-.aba-unha h3 span,
-.maquiagem h3 span{
-    background: rgb(255, 253, 253);
-    padding: 0 15px 10px;
-}
-.cabelos,
-.unhas,
-.maquiagens{
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.137);
-    justify-content: space-evenly;
-    align-items: center;
-}
-.item {
-    width: 200px;
-    height: 250px;
-    background-color: rgba(240, 153, 172, 0.527);
-}
-.item img{
-    width: 190px;
-    height: 170px;
-} */
-
-
-
 
 
 /* PÁGINA 2 */
@@ -349,7 +318,25 @@ footer {
     margin: 0px 10px 10px 0;
 }
 
-/* PÁGINA 4 */
+
+/* Página 7 */
+.cultura{
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.cultura-text{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+}
+
+
+/* PÁGINA 8 */
 #bodyformulario {
     background-color: rgb(190, 157, 124);
     text-align: left;
@@ -380,10 +367,25 @@ footer {
 }
 
 /* PÁGINA 5 */
-
-
-
-
+.moda{
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.moda2{
+    font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+}
 
 
 /* PÁGINA 6 */
@@ -399,6 +401,9 @@ footer {
 .serie h3 span {
     background: rgb(255, 253, 253);
     padding: 0 15px 10px;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 .gastronomia-titulo, .serie-titulo{
     display: flex;
@@ -415,4 +420,30 @@ footer {
 .item6 img{
     width: 190px;
     height: 170px;
+}
+
+/* Pág Políticas */
+.politica, .politica-titulo{
+        font-family: "Rock Salt", cursive;
+        font-weight: 400;
+        font-style: normal;     
+}
+.politica p{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Pág Termos */
+.termos, .termos-titulo{
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.termos p{
+font-family: "Crimson Text", serif;
+font-weight: 400;
+font-style: normal;
+font-display: justify;     
 }
