@@ -275,10 +275,14 @@ footer {
     width: 190px;
     height: 170px;
 }
+.pg-beleza{
+    background-color: rgb(201, 252, 160);
+}
+
 
 
 /* PÁGINA 2 */
-#bodypag2 { 
+.pag2 { 
     background-color: rgb(240, 227, 204);
     text-align: left;
     border: rgb(77, 14, 14) solid 2px;
@@ -297,6 +301,10 @@ footer {
     padding: 5px;
     margin: 0px 10px 10px 0;
 }
+
+
+
+
 /* PÁGINA 3 */
 #bodypag3 { 
     background-color: rgb(255, 191, 191);
@@ -319,6 +327,13 @@ footer {
 }
 
 
+/* Página 4 */
+.bodypag4{
+    background-color: #96b7d6;
+}
+
+
+
 /* Página 7 */
 .cultura{
     font-family: "Rock Salt", cursive;
@@ -333,6 +348,9 @@ footer {
     font-variation-settings:
       "wdth" 100,
       "YTLC" 500;
+}
+.cultura-pag{
+    background-color: #bafaa6;
 }
 
 
@@ -386,6 +404,9 @@ p{
       "wdth" 100,
       "YTLC" 500;
 }
+.pag-moda{
+    background-color: #e0abf5;
+}
 
 
 /* PÁGINA 6 */
@@ -420,6 +441,9 @@ p{
 .item6 img{
     width: 190px;
     height: 170px;
+}
+.pag-lifestyle{
+    background-color: whitesmoke;
 }
 
 /* Pág Políticas */
